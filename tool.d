@@ -25,6 +25,12 @@ XX";
 
 void main(string[] args)
 {
+	if (args.length < 2)
+	{
+		usage();
+		return;
+	}
+
 	dubPath = environment.get("DUB", "./dub");
 
     if (!exists(dubPath))
@@ -37,6 +43,9 @@ void main(string[] args)
 			break;
 		case "showDeps":
 			showDeps(args);
+			break;
+		case "help":
+			usage();
 			break;
 		default:
 			writeln("No such command " ~ args[1]);
