@@ -22,3 +22,7 @@ docs/
 
 # Code coverage
 *.lst
+*.coverage
+
+# Other deadcode repos checked out in this dev environment folder
+deadcode-*
