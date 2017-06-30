@@ -18,6 +18,8 @@ void usage()
 	auto usageTmpl = q"XX
 tool <command> [command options...]
 Commands
+  help      : Show help about a command
+  setup     : Setup dev environment for deadcode editor
   test      : Run tests (building if necessary) optional filter can be provided
   showDeps  : Show dependencies of repos in the deadcode-* folders
 XX";
@@ -26,10 +28,17 @@ XX";
 
 void main(string[] args)
 {
+	bool showHelp = false;
 	if (args.length < 2)
 	{
 		usage();
 		return;
+	} 
+	else if (args[1] == "help")
+	{
+		args[1..$-1] = args[2..$];
+		args.length = args.length - 1; 	
+		showHelp = true;
 	}
 
 	dubPath = environment.get("DUB", "./dub");
@@ -39,11 +48,14 @@ void main(string[] args)
 
 	switch (args[1])
 	{
+		case "setup":
+			setup(args, showHelp);
+			break;
 		case "test":
-			test(args);
+			test(args, showHelp);
 			break;
 		case "showDeps":
-			showDeps(args);
+			showDeps(args, showHelp);
 			break;
 		case "help":
 			usage();
@@ -71,6 +83,44 @@ string[] getSubjects(string[] args)
 			.array;
 	}
 	return testSubjects;
+}
+
+void setup(string[] args, bool showUsage = false)
+{
+	if (showUsage)
+	{
+		writeln("tool setup");
+		writeln("Setup dev environment. Will clone repos from github to current folder.");
+		return;
+	}
+
+	static bool clone(string repo)
+	{
+		auto r = executeShell("git clone git@github.com:jcd/deadcode-" ~ repo ~ ".git");
+		writeln(r.output);
+		return r.status == 0;
+	}
+
+	auto repos = [ 	
+		"animation", "api", "core", "edit", "editor", "event-sdl", 
+		/* "example-extension", "extensions",*/ "graphics", "gui", "io",
+		"platform", "rpc" 
+		];
+
+	bool ok = true;
+	foreach (r; repos)
+	{
+		if (!clone(r))
+		{ 
+			ok = false;
+			break;
+		}
+	}
+
+	if (ok)
+		writeln("Setup succeeded. Try e.g. 'tool test'");
+	else
+		writeln("Setup failed");
 }
 
 void test(string[] args, bool showUsage = false)
