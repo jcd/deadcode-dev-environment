@@ -18,5 +18,14 @@ Project | Build | Coverage
 [deadcode-rpc](https://github.com/jcd/deadcode-rpc) | [![Build Status](https://travis-ci.org/jcd/deadcode-rpc.svg?branch=master)](https://travis-ci.org/jcd/deadcode-rpc) | [![codecov](https://codecov.io/gh/jcd/deadcode-rpc/branch/master/graph/badge.svg)](https://codecov.io/gh/jcd/deadcode-rpc)
 [deadcode-io](https://github.com/jcd/deadcode-io) | [![Build Status](https://travis-ci.org/jcd/deadcode-io.svg?branch=master)](https://travis-ci.org/jcd/deadcode-io) | [![codecov](https://codecov.io/gh/jcd/deadcode-io/branch/master/graph/badge.svg)](https://codecov.io/gh/jcd/deadcode-io)
 [deadcode-edit](https://github.com/jcd/deadcode-edit) | [![Build Status](https://travis-ci.org/jcd/deadcode-edit.svg?branch=master)](https://travis-ci.org/jcd/deadcode-edit) | [![codecov](https://codecov.io/gh/jcd/deadcode-edit/branch/master/graph/badge.svg)](https://codecov.io/gh/jcd/deadcode-edit)
+[deadcode-graphics](https://github.com/jcd/deadcode-graphics) | [![Build Status](https://travis-ci.org/jcd/deadcode-graphics.svg?branch=master)](https://travis-ci.org/jcd/deadcode-graphics) | [![codecov](https://codecov.io/gh/jcd/deadcode-graphics/branch/master/graph/badge.svg)](https://codecov.io/gh/jcd/deadcode-graphics)
+[deadcode-command](https://github.com/jcd/deadcode-command) | [![Build Status](https://travis-ci.org/jcd/deadcode-command.svg?branch=master)](https://travis-ci.org/jcd/deadcode-command) | [![codecov](https://codecov.io/gh/jcd/deadcode-command/branch/master/graph/badge.svg)](https://codecov.io/gh/jcd/deadcode-command)
+[deadcode-api](https://github.com/jcd/deadcode-api) | [![Build Status](https://travis-ci.org/jcd/deadcode-api.svg?branch=master)](https://travis-ci.org/jcd/deadcode-api) | [![codecov](https://codecov.io/gh/jcd/deadcode-api/branch/master/graph/badge.svg)](https://codecov.io/gh/jcd/deadcode-api)
+[deadcode-animation](https://github.com/jcd/deadcode-animation) | [![Build Status](https://travis-ci.org/jcd/deadcode-animation.svg?branch=master)](https://travis-ci.org/jcd/deadcode-animation) | [![codecov](https://codecov.io/gh/jcd/deadcode-animation/branch/master/graph/badge.svg)](https://codecov.io/gh/jcd/deadcode-animation)
+[deadcode-edit](https://github.com/jcd/deadcode-edit) | [![Build Status](https://travis-ci.org/jcd/deadcode-edit.svg?branch=master)](https://travis-ci.org/jcd/deadcode-edit) | [![codecov](https://codecov.io/gh/jcd/deadcode-edit/branch/master/graph/badge.svg)](https://codecov.io/gh/jcd/deadcode-edit)
+
+
+
+
 
 
