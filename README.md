@@ -13,10 +13,10 @@ Linux/Mac: Use `./tool.d help` to get going.
 
 Project | Build | Coverage
 --- | --- | ---
-deadcode-core | [![Build Status](https://travis-ci.org/jcd/deadcode-core.svg?branch=master)](https://travis-ci.org/jcd/deadcode-core) | [![codecov](https://codecov.io/gh/jcd/deadcode-core/branch/master/graph/badge.svg)](https://codecov.io/gh/jcd/deadcode-core)
-deadcode-platform | [![Build Status](https://travis-ci.org/jcd/deadcode-platform.svg?branch=master)](https://travis-ci.org/jcd/deadcode-platform) | [![codecov](https://codecov.io/gh/jcd/deadcode-platform/branch/master/graph/badge.svg)](https://codecov.io/gh/jcd/deadcode-platform)
-deadcode-rpc | [![Build Status](https://travis-ci.org/jcd/deadcode-rpc.svg?branch=master)](https://travis-ci.org/jcd/deadcode-rpc) | [![codecov](https://codecov.io/gh/jcd/deadcode-rpc/branch/master/graph/badge.svg)](https://codecov.io/gh/jcd/deadcode-rpc)
-deadcode-io | [![Build Status](https://travis-ci.org/jcd/deadcode-io.svg?branch=master)](https://travis-ci.org/jcd/deadcode-io) | [![codecov](https://codecov.io/gh/jcd/deadcode-io/branch/master/graph/badge.svg)](https://codecov.io/gh/jcd/deadcode-io)
-deadcode-edit | [![Build Status](https://travis-ci.org/jcd/deadcode-edit.svg?branch=master)](https://travis-ci.org/jcd/deadcode-edit) | [![codecov](https://codecov.io/gh/jcd/deadcode-edit/branch/master/graph/badge.svg)](https://codecov.io/gh/jcd/deadcode-edit)
+[deadcode-core](https://github.com/jcd/deadcode-core) | [![Build Status](https://travis-ci.org/jcd/deadcode-core.svg?branch=master)](https://travis-ci.org/jcd/deadcode-core) | [![codecov](https://codecov.io/gh/jcd/deadcode-core/branch/master/graph/badge.svg)](https://codecov.io/gh/jcd/deadcode-core)
+[deadcode-platform](https://github.com/jcd/deadcode-platform) | [![Build Status](https://travis-ci.org/jcd/deadcode-platform.svg?branch=master)](https://travis-ci.org/jcd/deadcode-platform) | [![codecov](https://codecov.io/gh/jcd/deadcode-platform/branch/master/graph/badge.svg)](https://codecov.io/gh/jcd/deadcode-platform)
+[deadcode-rpc](https://github.com/jcd/deadcode-rpc) | [![Build Status](https://travis-ci.org/jcd/deadcode-rpc.svg?branch=master)](https://travis-ci.org/jcd/deadcode-rpc) | [![codecov](https://codecov.io/gh/jcd/deadcode-rpc/branch/master/graph/badge.svg)](https://codecov.io/gh/jcd/deadcode-rpc)
+[deadcode-io](https://github.com/jcd/deadcode-io) | [![Build Status](https://travis-ci.org/jcd/deadcode-io.svg?branch=master)](https://travis-ci.org/jcd/deadcode-io) | [![codecov](https://codecov.io/gh/jcd/deadcode-io/branch/master/graph/badge.svg)](https://codecov.io/gh/jcd/deadcode-io)
+[deadcode-edit](https://github.com/jcd/deadcode-edit) | [![Build Status](https://travis-ci.org/jcd/deadcode-edit.svg?branch=master)](https://travis-ci.org/jcd/deadcode-edit) | [![codecov](https://codecov.io/gh/jcd/deadcode-edit/branch/master/graph/badge.svg)](https://codecov.io/gh/jcd/deadcode-edit)
 
 
